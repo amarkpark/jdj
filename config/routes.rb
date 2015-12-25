@@ -3,7 +3,10 @@ Jdj::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'services#index'
+  get 'about', :to => 'services#about'
+  get 'services', :to => 'services#services'
+  get 'gallery', :to => 'services#gallery'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
