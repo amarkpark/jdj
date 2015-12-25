@@ -11,16 +11,16 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height:500px;
+  height:800px;
   box-shadow: 0px 1px 3px #2a2a2a;
 }
-.abouthero {
-  background: url('redroseback.png') no-repeat center center fixed;
+.wrhero {
+  background: url('whiterosesback.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height:400px;
+  height:500px;
   box-shadow: 0px 1px 3px #2a2a2a;
 }
 .img-responsive {
@@ -42,6 +42,19 @@
   font-size: 1.5em;
   border-radius: 6px;
   // text-align: center;
+}
+
+.jansig {
+  font-family: 'great_vibesregular';
+  font-size: 40px;
+  color: black;  
+}
+.weddingsplash {
+  font-family: 'great_vibesregular';
+  font-size: 96px;
+  color: red;
+  text-shadow: 3px 3px #000000;
+  padding-top: 200px;
 }
 
 body {
@@ -77,3 +90,24 @@ ul.dropdown-menu {
   text-shadow: 2px 2px #000000;
 }
 
+.navbar-inverse {
+  box-shadow: 0px 1px 3px #000;
+}
+
+/***********************************************************************
+*  MOBILE OVERRIDES SECTION
+***********************************************************************/
+
+@media (max-width: 750px) {
+  .weddingsplash {
+    font-size: 72px;
+    text-shadow: 2px 2px #000000;
+    padding-top: 120px;
+  }
+  .indexhero {
+    height: 650px;
+  }
+  .navbar-inverse .navbar-brand {
+    font-size: 24px;
+  }
+}

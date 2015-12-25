@@ -7,6 +7,7 @@ Jdj::Application.routes.draw do
   get 'about', :to => 'services#about'
   get 'services', :to => 'services#services'
   get 'gallery', :to => 'services#gallery'
+  get 'testimonials', :to => 'services#testimonials'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

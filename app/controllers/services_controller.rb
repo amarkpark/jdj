@@ -12,4 +12,7 @@ class ServicesController < ApplicationController
   def services
   end
 
+  def testimonials
+  end
+
 end
